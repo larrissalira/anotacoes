@@ -11,3 +11,11 @@ class AnotacoesController {
         console.log(this.anotacaoControl);
     }
 }
+
+const aControler = new AnotacoesController ()
+$('#butao').on("click",function(){
+    Event.preventDefault();
+    aControler.addAnotacao()
+})
+
+
