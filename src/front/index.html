@@ -12,7 +12,7 @@
         <h1 class=" py-2 text-light" style="font-family: 'Indie Flower'; width:100%">Minhas anotações</h1>
     </nav>
     <div class="d-flex justify-content-center">
-        <div class="w-50 p-4 border rounded shadow-sm"> 
+        <div class="w-50 p-4 border rounded shadow-sm" id="teste"> 
             <form class="flex-fill">
                 
                 <div class="form-group">
@@ -23,7 +23,8 @@
                     <label for="note-desc"><b>Notas:</b></label>
                     <textarea name="note-desc" class="form-control" id="descricaoTarefa" rows="3" placeholder="Insira aqui suas anotações"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Adicionar anotações!</button>
+                <button type="submit" class="btn btn-primary" id="butao">Adicionar anotações!</button>
+
             </form>
         </div>
     </div>
@@ -34,5 +35,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./models/anotacoes.js"></script>
     <script src="./controllers/anotacoes-controller.js"></script>
+    <script src="./views/anotacoes-view.js"></script>
 </body>
 </html>`;
